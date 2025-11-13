@@ -1,1 +1,26 @@
+/* ======== ESTILO PERSONALIZADO ======== */
+.pagina {
+  transition: opacity 0.4s ease-in-out;
+}
+
+.pagina.hidden {
+  display: none;
+  opacity: 0;
+}
+
+.pagina.ativa {
+  display: block;
+  opacity: 1;
+}
+
+/* Ajuste de rolagem suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo extra opcional */
+video {
+  border-radius: 1rem;
+  overflow: hidden;
+}
 
